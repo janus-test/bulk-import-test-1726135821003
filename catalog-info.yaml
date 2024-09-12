@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: janus-test-2-bulk-import-test-updated
+  annotations:
+    github.com/project-slug: janus-test/bulk-import-test-1726135821003
+  labels:
+    bulkimport1: test1
+    bulkimport2: test2
+spec:
+  type: other
+  lifecycle: unknown
+  owner: user:default/rhdh-qe
